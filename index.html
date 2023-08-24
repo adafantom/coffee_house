@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c6bb6fad04b923a53269871a070845da {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c6bb6fad04b923a53269871a070845da" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c6bb6fad04b923a53269871a070845da = L.map(
+                "map_c6bb6fad04b923a53269871a070845da",
+                {
+                    center: [55.749486, 37.591494],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_17288e074503fba965f41acbc9184813 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c6bb6fad04b923a53269871a070845da);
+        
+    
+            var marker_9740a42edc65c2ade46cbcfe56cf2458 = L.marker(
+                [55.749486, 37.591494],
+                {}
+            ).addTo(map_c6bb6fad04b923a53269871a070845da);
+        
+    
+        var popup_239a37e9495792d14def31c6cf0a13c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb3295e7130bcb40579a23ea4f360aab = $(`<div id="html_cb3295e7130bcb40579a23ea4f360aab" style="width: 100.0%; height: 100.0%;"><i>Старый Арбат</i></div>`)[0];
+                popup_239a37e9495792d14def31c6cf0a13c7.setContent(html_cb3295e7130bcb40579a23ea4f360aab);
+            
+        
+
+        marker_9740a42edc65c2ade46cbcfe56cf2458.bindPopup(popup_239a37e9495792d14def31c6cf0a13c7)
+        ;
+
+        
+    
+    
+            marker_9740a42edc65c2ade46cbcfe56cf2458.bindTooltip(
+                `<div>
+                     Старый Арбат
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd070c734b2fb110c2b355a0e6dd096d = L.marker(
+                [55.749727189039135, 37.59427469048947],
+                {}
+            ).addTo(map_c6bb6fad04b923a53269871a070845da);
+        
+    
+        var popup_1dec339878fe0185820ac395c3f00a0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a31c5d5d65c7018a5d0904ab157787d8 = $(`<div id="html_a31c5d5d65c7018a5d0904ab157787d8" style="width: 100.0%; height: 100.0%;"><i>Jeffreys coffee</i></div>`)[0];
+                popup_1dec339878fe0185820ac395c3f00a0f.setContent(html_a31c5d5d65c7018a5d0904ab157787d8);
+            
+        
+
+        marker_bd070c734b2fb110c2b355a0e6dd096d.bindPopup(popup_1dec339878fe0185820ac395c3f00a0f)
+        ;
+
+        
+    
+    
+            marker_bd070c734b2fb110c2b355a0e6dd096d.bindTooltip(
+                `<div>
+                     Jeffreys coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78945f7a4a243d0dc6a4cc7a72af81ac = L.marker(
+                [55.75042875579532, 37.594007999999995],
+                {}
+            ).addTo(map_c6bb6fad04b923a53269871a070845da);
+        
+    
+        var popup_2b971f6472859c2f57179aa4089a7cfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f8eb9041ab4c1c109d60f3f6e4bc3ab = $(`<div id="html_4f8eb9041ab4c1c109d60f3f6e4bc3ab" style="width: 100.0%; height: 100.0%;"><i>ПРАВDА Кофе</i></div>`)[0];
+                popup_2b971f6472859c2f57179aa4089a7cfa.setContent(html_4f8eb9041ab4c1c109d60f3f6e4bc3ab);
+            
+        
+
+        marker_78945f7a4a243d0dc6a4cc7a72af81ac.bindPopup(popup_2b971f6472859c2f57179aa4089a7cfa)
+        ;
+
+        
+    
+    
+            marker_78945f7a4a243d0dc6a4cc7a72af81ac.bindTooltip(
+                `<div>
+                     ПРАВDА Кофе
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0eda68bc7719172edaa7f38176462a4 = L.marker(
+                [55.75205875626837, 37.592163000000006],
+                {}
+            ).addTo(map_c6bb6fad04b923a53269871a070845da);
+        
+    
+        var popup_2537b1caeafb71c0f940ceb8dbb83984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e99858ac9116a2acc76895354ecbcea1 = $(`<div id="html_e99858ac9116a2acc76895354ecbcea1" style="width: 100.0%; height: 100.0%;"><i>John Coffey</i></div>`)[0];
+                popup_2537b1caeafb71c0f940ceb8dbb83984.setContent(html_e99858ac9116a2acc76895354ecbcea1);
+            
+        
+
+        marker_b0eda68bc7719172edaa7f38176462a4.bindPopup(popup_2537b1caeafb71c0f940ceb8dbb83984)
+        ;
+
+        
+    
+    
+            marker_b0eda68bc7719172edaa7f38176462a4.bindTooltip(
+                `<div>
+                     John Coffey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f950ad256b9baf5228b20a8f5949f3f8 = L.marker(
+                [55.75196715845947, 37.58851112895049],
+                {}
+            ).addTo(map_c6bb6fad04b923a53269871a070845da);
+        
+    
+        var popup_a5f2cfe08e8e8fac2fc9b06d2e361ab5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13e6084559159b9a59e4936a89ccc68c = $(`<div id="html_13e6084559159b9a59e4936a89ccc68c" style="width: 100.0%; height: 100.0%;"><i>Кофемания</i></div>`)[0];
+                popup_a5f2cfe08e8e8fac2fc9b06d2e361ab5.setContent(html_13e6084559159b9a59e4936a89ccc68c);
+            
+        
+
+        marker_f950ad256b9baf5228b20a8f5949f3f8.bindPopup(popup_a5f2cfe08e8e8fac2fc9b06d2e361ab5)
+        ;
+
+        
+    
+    
+            marker_f950ad256b9baf5228b20a8f5949f3f8.bindTooltip(
+                `<div>
+                     Кофемания
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8c61952312cb9c8f1ee5757c929046c = L.marker(
+                [55.75114375600281, 37.596042999999995],
+                {}
+            ).addTo(map_c6bb6fad04b923a53269871a070845da);
+        
+    
+        var popup_dbaa33f8912bae1f70798fe9be037ab9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa4333d376534593f3f6af78fe35bfc4 = $(`<div id="html_aa4333d376534593f3f6af78fe35bfc4" style="width: 100.0%; height: 100.0%;"><i>One Price Coffee</i></div>`)[0];
+                popup_dbaa33f8912bae1f70798fe9be037ab9.setContent(html_aa4333d376534593f3f6af78fe35bfc4);
+            
+        
+
+        marker_e8c61952312cb9c8f1ee5757c929046c.bindPopup(popup_dbaa33f8912bae1f70798fe9be037ab9)
+        ;
+
+        
+    
+    
+            marker_e8c61952312cb9c8f1ee5757c929046c.bindTooltip(
+                `<div>
+                     One Price Coffee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
