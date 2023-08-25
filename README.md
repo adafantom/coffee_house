@@ -4,16 +4,11 @@
 
 ## Среда
 ### Требования
-Python3 уже должен быть установлен. Используйте pip(или pip3, если есть конфликт с Python2) для установки зависимостей
 
-Должна быть установлены библиотеки
+Python3 уже должен быть установлен. Используйте pip(или pip3, если есть конфликт с Python2) для установки зависимостей:
 
-```bush
-pip install json
-pip install requests
-pip install geopy 
-pip install folium
-pip install flask
+```bash
+pip install -r requirements.txt
 ```
 
 ## Запуск
